@@ -23,7 +23,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-[#050505] border-t border-white/[0.05] px-6 pt-20 pb-12 font-sans">
+    <footer className="bg-[#050505] border-t border-white/[0.05] px-6 pt-12 pb-8 md:pt-20 md:pb-12 font-sans">
       <div className="max-w-6xl w-full mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 mb-16">
         
         {/* Column 1: Brand & Logo */}

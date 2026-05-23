@@ -4,7 +4,7 @@ import NeoPopButton from '../ui/NeoPopButton';
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center bg-cred-bg overflow-hidden px-6 pt-24 pb-16">
+    <section className="relative min-h-screen flex flex-col items-center justify-center bg-cred-bg overflow-hidden px-6 pt-24 pb-8 md:pb-16">
       {/* Background Neon Glowing Orbs */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full bg-cred-accentTeal/15 blur-[120px] pointer-events-none -z-10 animate-pulse-glow" />
       <div className="absolute bottom-1/4 left-1/3 w-[400px] h-[400px] rounded-full bg-cred-accentPink/10 blur-[100px] pointer-events-none -z-10 animate-pulse-glow" style={{ animationDelay: '1.5s' }} />
@@ -68,10 +68,10 @@ const Hero = () => {
         </div>
 
         {/* Visual Premium Cards */}
-        <div className="lg:col-span-5 flex justify-center items-center relative h-[450px] w-full mt-10 lg:mt-0">
+        <div className="lg:col-span-5 flex justify-center items-center relative h-[350px] sm:h-[450px] w-full mt-10 lg:mt-0 scale-[0.7] sm:scale-100 origin-center">
           {/* Neon rings in background */}
-          <div className="absolute w-[350px] h-[350px] border border-white/5 rounded-full pointer-events-none" />
-          <div className="absolute w-[450px] h-[450px] border border-white/[0.02] rounded-full pointer-events-none" />
+          <div className="absolute w-[250px] sm:w-[350px] h-[250px] sm:h-[350px] border border-white/5 rounded-full pointer-events-none" />
+          <div className="absolute w-[350px] sm:w-[450px] h-[350px] sm:h-[450px] border border-white/[0.02] rounded-full pointer-events-none" />
           
           {/* Card 1: Gold Card */}
           <motion.div

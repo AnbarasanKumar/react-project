@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+  html, body {
+    @apply overflow-x-hidden;
+  }
   body {
     @apply bg-cred-bg text-white font-sans antialiased selection:bg-cred-accentPink selection:text-white;
   }

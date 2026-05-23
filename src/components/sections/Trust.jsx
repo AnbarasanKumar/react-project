@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Trust = () => {
   return (
-    <section className="relative py-28 bg-[#070707] px-6 overflow-hidden">
+    <section className="relative py-16 md:py-28 bg-[#070707] px-6 overflow-hidden">
       {/* Background Gradients */}
       <div className="absolute top-1/2 left-0 w-[400px] h-[400px] rounded-full bg-cred-accentPink/5 blur-[120px] pointer-events-none -z-10" />
       <div className="absolute bottom-0 right-0 w-[400px] h-[400px] rounded-full bg-cred-accentTeal/5 blur-[120px] pointer-events-none -z-10" />
@@ -110,7 +110,7 @@ const Trust = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: '-100px' }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="grid grid-cols-2 gap-6 mt-10 w-full max-w-md"
+            className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10 w-full max-w-md"
           >
             <div className="p-4 border-l-2 border-cred-accentTeal bg-white/[0.01]">
               <h4 className="text-white font-bold text-sm tracking-wider uppercase mb-1">01. EXCLUSIVITY</h4>

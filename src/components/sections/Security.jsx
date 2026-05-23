@@ -21,7 +21,7 @@ const Security = () => {
   ];
 
   return (
-    <section className="py-28 bg-[#070707] px-6 relative overflow-hidden">
+    <section className="py-16 md:py-28 bg-[#070707] px-6 relative overflow-hidden">
       {/* Background circles */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full border border-cred-accentGreen/10 pointer-events-none -z-10" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] rounded-full border border-dashed border-white/5 pointer-events-none -z-10" />
@@ -91,7 +91,7 @@ const Security = () => {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, type: 'spring' }}
-            className="relative w-[340px] aspect-square rounded-3xl bg-[#0f0f0f] border border-white/5 flex flex-col justify-center items-center shadow-2xl overflow-hidden"
+            className="relative w-full max-w-[340px] aspect-square rounded-3xl bg-[#0f0f0f] border border-white/5 flex flex-col justify-center items-center shadow-2xl overflow-hidden"
           >
             {/* Background grid */}
             <div className="absolute inset-0 grid-pattern opacity-30 pointer-events-none" />

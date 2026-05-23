@@ -23,7 +23,7 @@ const NeoPopShowcase = () => {
   };
 
   return (
-    <section id="neopop-showcase" className="py-28 bg-[#0b0b0b] border-y border-white/[0.05] px-6 relative overflow-hidden">
+    <section id="neopop-showcase" className="py-16 md:py-28 bg-[#0b0b0b] border-y border-white/[0.05] px-6 relative overflow-hidden">
       {/* Background Radial Glow */}
       <div className="absolute top-1/2 left-0 w-[450px] h-[450px] rounded-full bg-cred-accentPink/5 blur-[120px] pointer-events-none -z-10 animate-pulse-glow" />
       <div className="absolute bottom-0 right-0 w-[450px] h-[450px] rounded-full bg-cred-accentTeal/5 blur-[120px] pointer-events-none -z-10 animate-pulse-glow" style={{ animationDelay: '2s' }} />

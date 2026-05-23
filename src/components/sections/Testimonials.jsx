@@ -43,7 +43,7 @@ const CountUp = ({ end, duration = 2000, suffix = "" }) => {
 
 const Testimonials = () => {
   return (
-    <section className="py-28 bg-cred-bg px-6 relative overflow-hidden">
+    <section className="py-16 md:py-28 bg-cred-bg px-6 relative overflow-hidden">
       {/* Background neon elements */}
       <div className="absolute top-1/3 right-1/4 w-[350px] h-[350px] rounded-full bg-cred-accentPink/5 blur-[120px] pointer-events-none -z-10 animate-pulse-glow" />
       <div className="absolute bottom-1/4 left-1/4 w-[400px] h-[400px] rounded-full bg-cred-accentTeal/5 blur-[120px] pointer-events-none -z-10 animate-pulse-glow" style={{ animationDelay: '1.5s' }} />
